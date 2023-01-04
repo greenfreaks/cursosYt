@@ -1,0 +1,6 @@
+TEMAS VISTOS:
+1. Instalación de GSAP: https://greensock.com/docs/v3/Installation
+2. Importación de plugin (ScrollTrigger)
+3. Creación de función (gsap.to)
+4. Propiedades del arreglo de la fucnión gsap.to
+5. Crear objeto que actúa como el ScrollTrigger
