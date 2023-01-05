@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.div1{
+background-color: pink;
+height: 100vh;
+}
+.div2{
+background-color: salmon;
+height: 400vh;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: fuchsia;
+}
+.square2{
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.square3{
+    margin-top: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.square4{
+    margin-top: 200px;
+    width: 150px;
+    height: 20vh;
+    background-color: green;
+}
+
+

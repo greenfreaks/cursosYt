@@ -1,0 +1,6 @@
+TEMAS VISTOS:
+1. Propiedades de ScrollTrigger
+2. Markers y sus Propiedades
+3. Start 
+4. End
+5. toggleClass
