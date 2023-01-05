@@ -1,0 +1,18 @@
+TEMAS VISTOS:
+1. toggleActions:
+    -> play / restart: inicia animación
+    -> reverse: retrocede la animación
+    -> pause: pausa animación
+    -> resume: continúa la animación si es que estaba en pausa
+    -> reset: pone el objeto animado en el punto de partida
+    -> complete: termina la animación de golpe (en caso de que aún no haya terminado de ejecutarse)
+    -> none: no se ejecuta nada
+2. Ordern del toggleActions
+EL orden en que está organizado el toggleActions es el siguiente:
+toggleActions. "action          action          action          action"
+Orden:          onEnter         onLeave         onEnterBack     onLeaveBack
+
+    -> onEnter: Es cuando la etiqueta <<scroller-start>>, toca de ida a la etiqueta <<start>>
+    -> onLeaver: Es cuando la etiqueta <<scroller-end>>, toca de ida a la etiqueta <<end>>
+    -> onEnterBack: Es cuando la etiqueta <<scroller-start>>, toca de regreso a la etiqueta <<start>>
+    -> onLeaverBack: Es cuando la etiqueta <<scroller-end>>, toca de regreso a la etiqueta <<end>>
