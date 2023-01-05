@@ -38,7 +38,7 @@ gsap.to(".square3", {
 
 gsap.to(".square4", {
     x: 700,
-    duartion: 3,
+    duration: 3,
     scrollTrigger:{
         trigger: ".square4",
         start: "top center",  

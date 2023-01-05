@@ -8,6 +8,6 @@ gsap.registerPlugin(ScrollTrigger); //Este plugin lo usaremos para la animación
 */
 gsap.to(".square", {
     y: -700, //Eje x, por defecto ya hablamos de pixeles
-    duartion: 3, // Establecemos la duració, por defecto GSAP sabe que hablamos de segundos
+    duration: 3, // Establecemos la duració, por defecto GSAP sabe que hablamos de segundos
     scrollTrigger: ".square2", // Es el disparador para que inicie la animación. Una vez que al hacer Scroll la pantalla llegue a ver el cuadro azul (.square2), el cuadro Fiusha (.square1) se moverá.
 });
