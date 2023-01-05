@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+
+.square{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+.square2{
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.square3{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+
+.panel{
+  width: 100%;
+  height: 100vh;
+  background-color: salmon;
+}
