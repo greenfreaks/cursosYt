@@ -1,0 +1,3 @@
+TEMAS VISTOS:
+    -> Pinning: Se trata de dejar estático un elemento elegido al estar haciendo Scroll, mientras los demás elementos continúan animándose
+    ->pinSpacing: Se define un espaciado entre 2 objetos que están interactuando en una animación
