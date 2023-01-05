@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    max-width: 35%;
+    margin: 80px auto;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+span{
+    background-image: linear-gradient(yellow, yellow);  /* Se define el color en el que se remaarcará el texto */
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s ease-in; /* Se crea una pequeña animación, esta va a trabajar con el Hover*/
+}
+
+.active{
+    background-size: 100% 100%;
+}
