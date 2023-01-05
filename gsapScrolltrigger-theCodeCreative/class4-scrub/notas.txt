@@ -1,0 +1,9 @@
+TEMAS VISTOS:
+    -> Scrub: esta propiedad permite que la animación se realice únicamente cuando se está haciendo Scrolling, de lo contrario, la animación se detiene. La aplicación se reproducec en función del Scroll; si el Scroll va de ida, la animación se reproduce hacia al frente, si el Scrolling va de regreso, la animación se reproduce hacia atrás, y si el Scrolling se detiene, la animación se detiene y su posición actual se mantiene
+
+    Al establecerle un valor numérico al Scrub, al detener la animación, este se detiene poco a poco (esta duración depende de los segundo definidos), haciendo su detenimiento más suave
+
+    Valores para Scrub:
+        -> True
+        -> (Algún valor numérico): este valor representa a los segundos de duración
+    Ejemplo de Scrub: https://bubblidigital.com/
