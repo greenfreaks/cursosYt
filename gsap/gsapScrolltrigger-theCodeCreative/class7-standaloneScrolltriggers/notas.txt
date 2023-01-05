@@ -1,0 +1,3 @@
+TEMAS VISTOS:
+    -> ScrollTrigger.create(): se usa para que un objeto sea su propio disparador para realizar sus animaciones.
+    Ejemplos de cómo cambia color del navbae al llegar a cierto punto de la página: https://www.experionglobal.com/
