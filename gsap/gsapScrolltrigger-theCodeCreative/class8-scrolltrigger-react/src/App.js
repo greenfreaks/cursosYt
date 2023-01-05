@@ -18,6 +18,7 @@ function App() {
         duration: 3, 
         scrollTrigger:{
           trigger: el //Recordemos que el elemento que estamos animando está almcenado en la variable "el"
+          
         }
       })
   }, []) 
