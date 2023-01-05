@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box2{
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.panel{
+    height: 100vh;
+    background-color: pink;
+}
+
+
