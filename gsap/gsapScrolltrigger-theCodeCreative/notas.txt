@@ -1,0 +1,7 @@
+Temas Vistos:
+    -> Después de instalar REACT, ahora hay que instalar GSAP con la consla usando el comando: npm install gsap, posteriormente hay que revisar en el archivo package.json que dentro de las dependencias se encuentra GSAP para ver que esté instalado correctamente
+
+    -> Debemos de importar 2 hooks de React:
+        ->useEffect: dentro de useEffect vamos a programar todas las funcionalidades de GSAP
+        ->useRef: Para referenciar un elemento del DOM y trabajar con el
+    -> gsap.fromTo(elementoQueSeAnimará, {posición inicial de la animación}, {acción de la animación}). Dentro de las llaves de esta función podemos meter todas las propiedades de gsap para animar un elemento
