@@ -1,0 +1,21 @@
+.panel{
+  height: 100vh;
+  background-color: salmon;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  translate: -100px;
+}
+.square2{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.square3{
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+}

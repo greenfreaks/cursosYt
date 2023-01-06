@@ -5,8 +5,8 @@ gsap.to(".square", {
     // duration: 3,
     scrollTrigger:{
         trigger: ".square",
-        start: "top 80%",
-        end: "top 30%",
+        start: "top center",
+        end: "bottom",
         scrub: true, // Permite que la animación se realice únicamente cuando se está haciendo Scrolling, de lo contrario, la animación se detiene
         toggleActions:"restart none none none",
         markers: {
