@@ -1,0 +1,10 @@
+TEMAS VISTOS:
+    ->Instalación de GSAP
+    ->gsapTo((), {}): inicio de las animaciones de inicio a final
+    ->gsapFrom((), {}) Incio de las animaciones de final a inicio.
+    ->Herramienta de Gsap para personalizar animaciones: https://greensock.com/ease-visualizer
+        Esta herramientas te muestra de manera muy visual el tipo de animación que quieres y la puedes modificar de forma muy sencilla, al final sólo copias el código que esta herramienta te genera y la implementas en tu código
+    -> Propiedad repeat: para repetir la animacipon más de una vez.
+    -> Propiedad yoyo: para regresar la animación a su estado inicial de manera suave
+    -> propiedad ease: para dar una animación extra al objeto animado al final o al inicio de la animación
+    -> Quitar Delay para iniciar animación al mismo tiempo
