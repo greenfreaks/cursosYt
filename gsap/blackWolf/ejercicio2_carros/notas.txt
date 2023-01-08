@@ -1,0 +1,5 @@
+TEMAS VISTOS:
+    ->Pinear todo el contenedor
+    -> Quitar el Delay entre cada animación
+    -> timeline
+    -> Markers
