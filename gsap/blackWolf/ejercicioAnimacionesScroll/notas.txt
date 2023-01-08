@@ -1,0 +1,2 @@
+TEMAS VISTOS:
+    -> Timeline: propiedades del timeline, cómo declararlo como una variable y cómo usar las propiedades del timeline trabajandolo dentro de una variable
