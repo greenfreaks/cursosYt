@@ -13,7 +13,8 @@
 const tl = gsap.timeline({
     // repeat: -1, // Se repite de manera infinita
     repeat: 1, // Se repite 1 vez, si el valor fuera 1, se repetiría 2 veces y así sucesivamente
-    yoyo: true // En caso de repetir la animación más de una vez, una vez que finaliza la primera repetición, con esta propiedad, la animación vuelve a su estado inicial de manera suave y no brusca y posteriormente se repite
+    yoyo: true, // En caso de repetir la animación más de una vez, una vez que finaliza la primera repetición, con esta propiedad, la animación vuelve a su estado inicial de manera suave y no brusca y posteriormente se repite
+    markers: true
 })
 
 tl.from('.cuadrado_1', {

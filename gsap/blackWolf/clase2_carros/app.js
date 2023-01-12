@@ -7,7 +7,7 @@ const tl = gsap.timeline({
         start: 'top top',
         end: "+=700 0",
         scrub: 3,
-        // markers: true,
+        markers: true,
         // pin: '.carro_2' //Definimos el objeto que vamos a pinear
     }
 })

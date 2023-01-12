@@ -1,0 +1,69 @@
+
+.contenedor{
+    width: 100%;
+    height: 800vh;
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(
+        179.2deg,
+        rgba(34, 34, 34, 1) 0%,
+        rgba(8, 0, 153, 1) 59.7%,
+        rgba(118, 6, 166, 1) 83.4%,
+        rgba(233, 0, 64, 0.58) 100.1%,
+    );
+    background-color: rgb(9, 7, 58);
+}
+h1{
+    color: white;
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+.contenedor__animacion{
+    position: relative; /* Posicion relative para que los elemtos tomen como guía este contenedor */
+    height: 785vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nave{
+    position: absolute; /* usamos esta posición ya que vamos a mover la nave como queramos*/
+    top: 100px;
+    height: 350px;
+    transform: rotate(180deg);
+}
+.planeta{
+    position: absolute; /* Ensimamos todos los planetas*/
+    height: 300px;
+    opacity: 0;
+}
+.planeta1{
+    opacity: 0;
+    right: 15%;
+    top: 100vh;
+}
+.planeta2{
+    opacity: 0;
+    left: 10%;
+    top: 100vh;
+}
+.planeta3{
+    opacity: 0;
+    height: 400px;
+    top: 0;
+    right: -100vw;
+}
+.planeta4{
+    opacity: 0;
+    height: 350px;
+    top: 5vh;
+    left: -100vh;
+}
+.planeta5{
+    opacity: 0;
+    height: 400px;
+    /* top: 5vh; */
+    top: 100vh;
+    right: 10vh;
+}

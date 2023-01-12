@@ -15,7 +15,7 @@ const tl = gsap.timeline({
         markers: true,
         start: 'top top',
         end: '100% 100%',
-        scrub: true,
+        scrub: 5,
     }
 });
 tl.to(nave, {scale: 0.5, y:'30vh', duration: 4, });
