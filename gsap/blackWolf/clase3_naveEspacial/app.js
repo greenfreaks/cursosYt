@@ -12,7 +12,7 @@ const tl = gsap.timeline({
         // trigger: 'contenedor', // Este conteedro es el padre del siguiente, si agarraramos este contenedor, todo se pinearía, incluyendo el título
         trigger: '.contenedor__animacion',
         pin: true,
-        markers: true,
+        markers: false,
         start: 'top top',
         end: '100% 100%',
         scrub: 5,
