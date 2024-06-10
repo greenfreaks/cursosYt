@@ -1,0 +1,44 @@
+------MÓDULOS-----
+Dan información a los submódulos || Organiza la aplicación en partes pequeñas
+-Unidades organizativas
+-Encapsulan funcionalidades
+-Dividen la aplicación
+-Importan y exportan elementos
+-Registran proveedores
+- Evitan conflictos de nombres
+
+--------COMPONENTES--------
+Es un bloque de construcción para la creación de interfaces de usuario para una plicación web son responsables de cómo se ve y como se comporta cada parte de la aplicación.
+- Bloques UI
+- Definen vistas y lógicas
+- Usan clases TypesScript
+- Tienen Plantillas HTML
+- Son reactivos
+- Altamente reutilizables
+- Se encapsulan
+- Jerarquía en la UI
+
+
+------ENLACE DE DATOS-----
+Se refiere a la capacidad de conectar y sincronizar automáticamente los datos  entre el modelo (que representa el estado de la aplicación) y la vista (la interfaz de usuairo que muestran los datos). El enlace de datos permite que los cambios en el modelo se reflejen automáticamente en la vista y viceversa.
+- SIncornización automática entre el modelo y la vista
+- Unideirreccional: los cambios en el modelo se reflejan en la vista
+- Birdireccional: cambios en la vista actualizan el modelo (por ejemplo, formularios).
+- Reactivo: utiliza observables para cambios en tiepo real.
+- Simplifica interacción: facilita la creación de apps interactivas.
+Automatiza actualizaciones: los cambios se reflejan sin intervención manual.
+
+
+---------METADATA--------
+Se refiere a la información adicional que se proporciona mediante decoradores en las clases que definen componentes, módulos, servicios y otras partes de una aplicación. La metadata se utiliza para configurar y personalizar el comportamiento de una aplicación. La metadata se utiliza para configurar y personalizar el comportamiento de estas partes de la aplicación, Los decoradores como @component, @NgModule, @injectable, entre otros, se utilizaban para adjuntar esta metadata a las clases.
+- Configuración: define cómo se comportan las partes de la aplicación.
+- Decoradores: Se utilizan decoradores como @Component, @NgModule, @Injectable. (Se usan para diferenciar entre distitos tipos de archivos typeScript)
+- Personalización: Ajusta el comportamiento con propiedades clave.
+- Componente: metadata para componentes, incluye plantilla y estilos.
+- Módulo: Confuguración de módulos, como declaraciones e importaciones.
+- Servicio: Metadata para servicios, define su alcance y proveedores.
+- Directiva: define metadata de directivas personalizadas, como selectores.
+
+
+-------¿CÓMO SE ENVÍA INFORMACIÓN ENTRE COMPONENTES?---------
+Los componentes pueden comunicarse a través de las propiedades de entrada y salida. Un componente padre puede pasar datos a un componente hijo mediante la vinculaión de propiedades de entrada, y un componente hijo puede emitir eventos que el componente padre puede escuchar a través de propiedades de salida

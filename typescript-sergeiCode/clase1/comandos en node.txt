@@ -1,0 +1,24 @@
++VERIFICAR SI TENEMOS INSTALADO TYPESCRIPT (si aparecen letras rojas significa que no):
+tsc -v
+
++VERIFICAR SI TENEMOS NODE:
+node -v
+
+INSTALAR TYPESCRIPT EN TODO MI SISTEMA OPERATIVO:
+npm install -g typescript
+
+Compilar de typescript a javascript (no es en tiempo real);
+tsc script.ts
+
+Compilar de typescript a javascript (En tiempo real);
+tsc script.ts -w
+
+INICIALIZAR EL PROYECTO COMO TYPESCRIPT (nos crea un archivo json para poder manipular ciertos comandos)
+tsc -init
+
+COMPILAR EN TIEMPO REAL TODOS LOS ARCHIVOS TYPESCRIPT DEL PROYECTO (Sólo funciona si el proyecto se inicializó como un Typescript)
+tsc -w
+
+CONCEPTO ANY
+Hay que tratar de evitar lo más posible trabajar con ANY
+

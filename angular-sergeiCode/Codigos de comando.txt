@@ -1,0 +1,10 @@
+-------GENERAR UN PROYECTO ANGULAR-------
+ng new nombre-del-proyecto
+
+-----GENERAR UN NUEVI MÓDULO----
+ng generate module nombre-del-módulo / ng g m nombre-del-modulo
+
+---CREAR UN COMPONENENTE-----
+ng generate component nombre-del-componenete / ng g c nombre-del-componente
+
+---Abre un servidor local para poder ver en el navegador nuestra app
